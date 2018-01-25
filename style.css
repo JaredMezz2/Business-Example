@@ -1,0 +1,108 @@
+/*Navbar styling*/
+.navbar-light {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/*Large Photos*/
+.largePhotos {
+    margin-top: 60px;
+    background-image: url('https://static.pexels.com/photos/669615/pexels-photo-669615.jpeg');
+    min-height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.largePhotos h2 {
+    padding-top: 25px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+.skillList {
+    margin-top: 10%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.skillList ul{
+    list-style-type: none;
+}
+
+/* Main Description */
+.mainDesc {
+    padding: 25px 0;
+}
+
+.mainDesc h3 {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Accent Section */
+
+.crossSection {
+    background-color: #657FCC;
+    color: white;
+    padding: 25px 0;
+}
+
+.crossSection .col-sm-2 i{
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+/* Features */
+
+.features {
+    padding: 25px 0;
+}
+
+.features h3 {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing 1px;
+    padding-bottom: 15px;
+}
+
+.features h5 {
+    font-weight: bold;
+}
+
+.features p {
+    color: #7c7c7c
+}
+
+.features .col-sm-2 {
+    font-size: 33px;
+    color: #657FCC
+}
+
+/* Footer */
+footer {
+    padding-top: 25px;
+    background-color: #383838;
+    color: white;
+}
+
+footer p {
+    color: #d1d1d1;
+}
+
+footer li {
+    color: #d1d1d1;
+    list-style-type:
+}
+
+.emph {
+    color: white;
+}
+
+.fa-mobile
