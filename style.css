@@ -1,6 +1,6 @@
 /*Navbar styling*/
 .navbar-light {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 /*Large Photos*/
@@ -8,8 +8,7 @@
     margin-top: 60px;
     background-image: url('https://static.pexels.com/photos/669615/pexels-photo-669615.jpeg');
     min-height: 50%;
-    background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -21,10 +20,21 @@
     font-size: 50px;
     margin-bottom: 0px;
     font-weight: bolder;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.highlightText {
+    padding: 10px 10px;
+    color: white;
+}
+
+.header {
+    padding-top: 20px;
 }
 
 .skillList {
-    margin-top: 10%;
+    margin-top: 5%;
+    padding-bottom: 5%;
     color: black;
     font-size: 30px;
     font-weight: bold;
@@ -33,6 +43,10 @@
 
 .skillList ul{
     list-style-type: none;
+}
+
+.col-md-8 {
+    padding-bottom: 25px;
 }
 
 /* Main Description */
@@ -68,7 +82,7 @@
 .features h3 {
     text-align: center;
     font-weight: bold;
-    letter-spacing 1px;
+    letter-spacing: 1px;
     padding-bottom: 15px;
 }
 
@@ -98,7 +112,6 @@ footer p {
 
 footer li {
     color: #d1d1d1;
-    list-style-type:
 }
 
 .emph {
